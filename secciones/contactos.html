@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagenes/icons8-corazón-con-pulso-48.png" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/style.css">
-    <title>Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Bootstrap</title>
 </head>
 
 
@@ -46,37 +48,93 @@
     </header>
 
 
-    <form>
-        <div>
-            <label for="nombre_apellido">Nombre y Apellido:</label>
-            <input type="text" name="nombre_apellido" />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="post">
+                        <fieldset>
+                            <legend class="text-center header">Contacto</legend>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="lname" name="name" type="text" placeholder="Apellido"
+                                        class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="fa fa-envelope-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="Telf" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Deje su masaje para nosotros aquí. Nos pondremos en contacto con usted dentro de 2 días hábiles."
+                                        rows="7"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
-        <label for="Email">E-mail:</label>
-        <input type="text" name="Email" />
-        <div>
-            <label for="Mensaje">Mensaje:</label>
-            <input type="text" name="Mensaje" />
-            <input type="submit" value="Enviar" />
-
-    </form>
-    <hr>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.3851957789134!2d-58.394476584766515!3d-34.745888380422926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2a2374b9923%3A0x2b115b8c79256a1f!2sIME%2C%20Chacabuco%20195%2C%20B1828%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1645980740853!5m2!1ses-419!2sar"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
 
 
-    
-    <div class="solicitar turno">Turnos: 1141908821</div> 
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13113.540526005298!2d-58.392287!3d-34.74589!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24683966aac3083!2sGruppa!5e0!3m2!1ses-419!2sar!4v1646274584133!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+
+    <div class="solicitar turno">Turnos: 1141908821</div>
+
+
 
 
 
     <footer>
-        <div class="footer">
-            <p>® Derechos Reservados 2022
-                Sede Central: CHACABUCO 195, Banfield, Argentina</p>
+        <div class="footer -copyright text-center py-3">© Copyright Derechos Reservados 2022
+            Sede Central: CHACABUCO 195, Banfield, Argentina
+            <a href="index.html">Gruppa</a>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 

@@ -57,22 +57,10 @@ body {
     margin: 0;
     margin-bottom: 40px;
 
+
 }
 
-h1 {
-    position: absolute;
-    margin: 0%;
-    padding: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #6C6452;
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
+
 
 .nuestra {
     padding: 20px;
@@ -81,9 +69,21 @@ h1 {
     margin-right: 20px;
     font-size: 20px;
     border: 3px groove white;
+
+
 }
 
 
+.header {
+    color: tomato;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color:  tomato;
+}
 
 /* GRID*/
 
@@ -148,7 +148,7 @@ h1 {
     position:fixed;
     left:0px;
     bottom:0px;
-    height:100px;
+    height:80px;
     width:100%;
 
 
