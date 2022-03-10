@@ -12,7 +12,7 @@ html {
   padding: 10px; }
 
 .logo {
-  width: 150px;
+  width: 155px;
   position: absolute;
   top: -10px;
   left: 0; }
@@ -66,7 +66,9 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "header header header header" "imag imag imag imag" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "imag imag imag imag"
+ "footer footer footer footer"; }
 
 .header {
   width: 95%;
@@ -119,12 +121,16 @@ body {
 @media screen and (min-width: 768px) {
   #body {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "header header" "imag imag" "footer  footer"; } }
+    grid-template-areas: "header header"
+ "imag imag"
+ "footer  footer"; } }
 
 @media screen and (min-width: 360px) {
   #body {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "imag" "footer"; } }
+    grid-template-areas: "header"
+ "imag"
+ "footer"; } }
 
 .parent {
   display: grid;
